@@ -3,14 +3,16 @@ package poo.model;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Cliente {
+public class Cliente extends Pessoa {
+	
+		public String numCartao;
 	
 //		PRIMEIRO MODO
 		
-//		Dados cliente
-		public int codigo;
-		public String nome;
-		public String cpf;
+//		Dados cliente (Transferido para a classe Pessoa)
+//		public int codigo;
+//		public String nome;
+//		public String cpf;
 
 /*		
 //		Endereço Residencial
